@@ -15,6 +15,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <button className="btn btn-primary">thu lan 1</button>
+        <div className="text-primary mt-4">Push len nhanh tao button, merge vao nhanh develop</div>
       </div>
     );
   }
