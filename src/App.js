@@ -18,6 +18,8 @@ class App extends Component {
         </p>
         <button className="btn btn-primary">thu lan 1</button>
         <div className="text-primary mt-4">Push len nhanh tao button, merge vao nhanh develop</div>
+        <div className="text-danger mt-4 display-3">Push project to bitbucker</div>
+
       </div>
       </Aux>
 
