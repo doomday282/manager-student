@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Aux from '../src/common/Auxiliary.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      
+    <Aux>
+       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
@@ -17,6 +19,8 @@ class App extends Component {
         <button className="btn btn-primary">thu lan 1</button>
         <div className="text-primary mt-4">Push len nhanh tao button, merge vao nhanh develop</div>
       </div>
+      </Aux>
+
     );
   }
 }
