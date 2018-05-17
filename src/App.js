@@ -16,24 +16,13 @@ class App extends Component {
           <p className="App-intro">
             To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-<<<<<<< HEAD
         <button className="btn btn-primary">thu lan 1</button>
         <div className="text-primary mt-4">Push len nhanh tao button, merge vao nhanh develop</div>
         <div className="text-danger mt-4 display-3">Push project to bitbucker</div>
-
-      </div>
-=======
-          <button className="btn btn-primary">thu lan 1</button>
-          <div className="text-primary mt-4">Push len nhanh tao button, merge vao nhanh develop</div>
-          <div className="text-dark bold">
+        <div className="text-dark bold">
             push to upstream
           </div>
-        </div>
-
-
-
-
->>>>>>> thay doi de push len upstream
+      </div>
       </Aux>
 
     );
